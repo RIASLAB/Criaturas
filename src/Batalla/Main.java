@@ -11,10 +11,10 @@ import criatura.Mago;
 
 /**
  *
- * @author majin
+ * @author Jhon Edinson R
  */
 public class Main {
-
+    
     public static void main(String[] args) {
         Criatura dragon = new Dragon("Draco", 100, 25);
         Criatura mago = new Mago("Merlín", 80, 20);
@@ -24,3 +24,5 @@ public class Main {
         Batalla.pelear(guerrero, dragon);
     }
 }
+
+
